@@ -1,5 +1,7 @@
-docker run -it \
+docker run \
 	--rm \
+	--name=firefox \
+	-d \
 	--net host \
 	-e DISPLAY=unix$DISPLAY \
 	-e PULSE_SERVER=$PULSE_SERVER \

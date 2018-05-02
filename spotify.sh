@@ -1,5 +1,7 @@
-docker run -it \
+docker run \
 	--rm \
+	-d \
+	--name=spotify \
 	--net host \
 	-e DISPLAY=unix$DISPLAY \
 	-e PULSE_SERVER=$PULSE_SERVER \
