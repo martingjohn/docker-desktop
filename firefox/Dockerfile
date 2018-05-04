@@ -8,7 +8,7 @@ RUN apt-get update \
             firefox  \
             libcanberra-gtk3-0 \
             vlc \
- && rm -rf /var/lib/apt/lists/*
+ && rm -rf /var/lib/apt/lists/* 
 
 USER $user
 
